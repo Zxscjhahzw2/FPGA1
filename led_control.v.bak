@@ -1,0 +1,14 @@
+ // 灯光控制逻辑
+    always @(*) begin
+        case (state)
+            S0: begin A_lights = 3'b100; B_lights = 3'b001; end // A红灯, B左转绿灯
+            S1: begin A_lights = 3'b010; B_lights = 3'b001; end // A黄灯, B左转绿灯
+            S2: begin A_lights = 3'b001; B_lights = 3'b100; end // A绿灯, B红灯
+            S3: begin A_lights = 3'b010; B_lights = 3'b100; end // A黄灯, B红灯
+            S4: begin A_lights = 3'b100; B_lights = 3'b100; end // A红灯, B红灯
+            S5: begin A_lights = 3'b100; B_lights = 3'b010; end // A红灯, B黄灯
+            S6: begin A_lights = 3'b100; B_lights = 3'b001; end // A红灯, B绿灯
+            S7: begin A_lights = 3'b100; B_lights = 3'b010; end // A红灯, B黄灯
+            default: begin A_lights = 3'b000; B_lights = 3'b000; end
+        endcase
+    end

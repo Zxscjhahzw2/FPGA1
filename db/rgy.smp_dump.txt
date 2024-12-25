@@ -1,0 +1,16 @@
+
+State Machine - |traffic_light_controller|traffic_light_fsm:fsm|stateb
+Name stateb.S3 stateb.S2 stateb.S1 stateb.S0 stateb.S4 
+stateb.S0 0 0 0 0 0 
+stateb.S1 0 0 1 1 0 
+stateb.S2 0 1 0 1 0 
+stateb.S3 1 0 0 1 0 
+stateb.S4 0 0 0 1 1 
+
+State Machine - |traffic_light_controller|traffic_light_fsm:fsm|statea
+Name statea.S3 statea.S2 statea.S1 statea.S0 statea.S4 
+statea.S0 0 0 0 0 0 
+statea.S1 0 0 1 1 0 
+statea.S2 0 1 0 1 0 
+statea.S3 1 0 0 1 0 
+statea.S4 0 0 0 1 1 

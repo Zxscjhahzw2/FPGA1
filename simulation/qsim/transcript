@@ -1,0 +1,49 @@
+# do rgy.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module traffic_light_controller
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	traffic_light_controller
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module traffic_light_controller_vlg_vec_tst
+# 
+# Top level modules:
+# 	traffic_light_controller_vlg_vec_tst
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver -c -t 1ps -novopt work.traffic_light_controller_vlg_vec_tst 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing D:/EDA/SHIYAN/simulation/qsim/work.traffic_light_controller_vlg_vec_tst
+# Loading work.traffic_light_controller_vlg_vec_tst
+# ** Error: (vsim-19) Failed to access library '220model_ver' at "220model_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# Refreshing D:/EDA/SHIYAN/simulation/qsim/work.traffic_light_controller
+# Loading work.traffic_light_controller
+# ** Error: (vsim-19) Failed to access library '220model_ver' at "220model_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# Refreshing D:/EDA/SHIYAN/simulation/qsim/work.hard_block
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+# after#20
+# Break in Module traffic_light_controller_vlg_vec_tst at output_files/Waveform2.vwf.vt line 56
+# Stopped at output_files/Waveform2.vwf.vt line 56 
+# Simulation Breakpoint: Break in Module traffic_light_controller_vlg_vec_tst at output_files/Waveform2.vwf.vt line 56
+# MACRO ./rgy.do PAUSED at line 16

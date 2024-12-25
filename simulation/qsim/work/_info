@@ -1,0 +1,95 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\EDA\SHIYAN\simulation\qsim
+vhard_block
+V1m]i>AnE2>l?mEgJ@k?_m1
+r1
+!s85 0
+31
+IfKdSzE;k_Ci5HNiWbk2F^2
+Z1 dD:\EDA\SHIYAN\simulation\qsim
+Z2 w1735021891
+Z3 8rgy.vo
+Z4 Frgy.vo
+L0 10529
+Z5 OL;L;10.1c;51
+Z6 !s108 1735021892.530000
+Z7 !s107 rgy.vo|
+Z8 !s90 -work|work|rgy.vo|
+Z9 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 PmTf6FDiK2MZH1Y<:TzTK0
+!i10b 1
+vrgy
+ViCWDcJ:MXTffAcYzZ5Vc=2
+r1
+31
+I72TTYC^cVhh4nbMMl^^692
+R1
+w1734936520
+R3
+R4
+L0 31
+R5
+R7
+R8
+R9
+!s108 1734936521.778000
+!s100 c4AXT<cC]XV`;^2md;=3j0
+!s85 0
+!i10b 1
+vrgy_vlg_vec_tst
+VOO59?F>[e2Gd?GWjY3GzS3
+r1
+31
+IBNGDLb8KTL7VlH<kYF5^a1
+R1
+w1734936519
+8Waveform4.vwf.vt
+FWaveform4.vwf.vt
+L0 29
+R5
+R9
+!s100 mNzB:R1bJz[R9JdUiLU@o3
+!s90 -work|work|Waveform4.vwf.vt|
+!s108 1734936521.840000
+!s107 Waveform4.vwf.vt|
+!s85 0
+!i10b 1
+vtraffic_light_controller
+VjI:PYdQ_[iclCVm@Dn:Yh1
+r1
+31
+I1i1KV1GLl;2m];O_R754H0
+R1
+R2
+R3
+R4
+L0 31
+R5
+R6
+R7
+R8
+R9
+!s85 0
+!s100 14hf`VL_VIS5DHF0[k0BD2
+!i10b 1
+vtraffic_light_controller_vlg_vec_tst
+V1eADF3mQT05=k_^?;d0Fl2
+r1
+31
+IgY[fKnfIOQ[BEbgnC[mTB2
+R1
+w1735021890
+8output_files/Waveform2.vwf.vt
+Foutput_files/Waveform2.vwf.vt
+L0 29
+R5
+R9
+!s85 0
+!i10b 1
+!s100 SJIHPb]77=?<fUbnE6a^e2
+!s108 1735021892.592000
+!s107 output_files/Waveform2.vwf.vt|
+!s90 -work|work|output_files/Waveform2.vwf.vt|
